@@ -2,9 +2,6 @@ from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
 
-
-# NOTE: The page at the given URL is maintained by "wikipedia", which might be updated in future.
-
 url = 'https://en.wikipedia.org/wiki/List_of_brown_dwarfs'
 
 page = requests.get(url)
